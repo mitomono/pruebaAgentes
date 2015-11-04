@@ -203,7 +203,7 @@ public class Bot extends SingleAgent {
     public ArrayList<Integer> Agps(String s) {
         ArrayList<Integer> gps = new ArrayList<>();
 
-        //parseo del string con formato Json
+        // parseo del string con formato Json
         JsonObject gpsJS = Json.parse(s).asObject();
 
         gps.add(gpsJS.getInt("x", -1));
