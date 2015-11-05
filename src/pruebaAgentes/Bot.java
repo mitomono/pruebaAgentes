@@ -48,7 +48,7 @@ public class Bot extends SingleAgent {
         outbox.setReceiver(new AgentID("Denebola"));
         outbox.setContent(conexionS);
 
-        //envio del mensage al servidor
+        // envio del mensage al servidor
         this.send(outbox);
 
         try {
