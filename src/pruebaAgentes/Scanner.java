@@ -32,7 +32,7 @@ public class Scanner extends SingleAgent {
         JsonArray mensageRecibido;
 
         try {
-            // recepcion del mensage del servidor
+            //recepcion del mensage del servidor
             inbox = this.receiveACLMessage();
 
             // se parsea el mensage y se extrae el array con los datos
